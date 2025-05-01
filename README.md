@@ -20,7 +20,8 @@ A compact hardware project that charges a single 18650 Li-ion cell using solar e
 | MSP420 | OLED display | [Amazon](https://www.amazon.com/DIYmall-Serial-128x64-Display-Arduino/dp/B00O2KDQBE/ref=sr_1_4?crid=NX5RN4BJSZ7C&dib=eyJ2IjoiMSJ9.z_zp54ql1z5bqQoe4uoh3BpRL4besxbvDWWJyZ5L_vX0hWX__eVE5a7apejz5xFVpl8q8GTTaAUAXQ-3VBwwxkCvLMJjkccQSzSyNNYdWBEPn1ausPe3LZ7maFxtNmmJFVDELS5rpqFsVdZ37mimMYZqrmJWe_PAWjI6HnUM-3-6_a9UWQAIJLBIepd-EDL7FggZOXOw8sT-WvgBT1qoxsvuLvAvp8RDp_6LA4hcf5pEwhwMthOX16Gb9bbW1ln_tgaauvaPiJp0zOvILHRzh08cLbyM8Fv4U8Oop5EldPA.qX2GPfRVsNJFZ5P7l2I2bDXyd24Q06WU6yaWYi8Atec&dib_tag=se&keywords=msp420&qid=1746113938&sprefix=msp42%2Caps%2C228&sr=8-4&th=1) |
 | Microcontroller | ATmega32U4 Pro Micro | [Amazon](https://www.amazon.com/Atmega32U4-Programming-Development-Micro-Controller-Compatible/dp/B0D83FBYPD/ref=sr_1_3?crid=2A1615KXQR3PP&dib=eyJ2IjoiMSJ9.3P-KUgX1Vdaf0PPqaQWYDDFFpmIne7paSLLC7cj06wZzQRiK_Zgsr5t47HOHDOjw0-xEI7uzMXsyN0rkQQiejN3CBnK2NkM_6-ZJcMYPQLJsdgpjUvp6fe8Qwkq3xK6BbhFbkxv1lXOLC-rqzhmUJ57H9Ez1HM1ySqBdfXcWuqfUnvdoGof__ojXH12lJSm8mnLzb2OjlLsRAbFw4qFsOpuwmE-Xf1yQgN5FKtahfxk.uv5uALh_FZmeVCsZ87ZWovZdr6M52td4tGThJKVEAmo&dib_tag=se&keywords=atmega32u4&qid=1746113957&sprefix=atmega32u4%2Caps%2C231&sr=8-3) |
 
-## Wiring Diagram
+## Wiring Diagram (hand drawn)
+![battery-solar_diagram_handdrawn](https://github.com/user-attachments/assets/a876beda-2d41-483d-8622-2acf698c077d)
 
 
 ## Power Flow
