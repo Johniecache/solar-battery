@@ -1,6 +1,8 @@
 # Solar 18650 USB Battery Charger
-
 A compact hardware project that charges a single 18650 Li-ion cell using solar energy, stores it safely, and outputs regulated 5V via USB. Includes real-time voltage, current, and battery percentage display for monitoring.
+
+## Use Case
+Use to power any USB-a device via a 18650 3000mAh battery that is charged itself by solar power.
 
 ## Features
 - Charges 18650 cell from solar panel (~6V input)
