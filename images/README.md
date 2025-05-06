@@ -53,7 +53,7 @@ $$
  * R2 is between the FB and the GND pin (assume this to be 100,000&Omega;)
 
 $$
-R1 = R2 (\frac{V_{out}}{V_{ref}} - 1) \rightarrow 100,000(\frac{5v}{1.2v} - 1) = 316,666.667&Omega;
+R1 = R2 (\frac{V_{out}}{V_{ref}} - 1) \rightarrow 100k(\frac{5v}{1.2v} - 1) = 316.67k&Omega;
 $$
 
  * With the assumption R1 is 100k&Omega; then the feedback resistor needs to be 316.67k&Omega;
@@ -64,24 +64,29 @@ $$
 1.2v(1 + \frac{316,666.667&Omega;}{100,000&Omega;}) \approx 5.00v
 $$
 
-#### Optimizing for 316,666.667&Omega; Resistor combination
+#### Optimizing for 316.67k&Omega; Resistor combination
 DISCLAIMER: I re-worked the optimization of the resistors after uploading my calculation image. Below is not only what I used but the corrected optimized format. This new reworked math is in the "optimization rework" image file
 
 $$
-100,000&Omega; + 100,000&Omega; + 100,000&Omega; = 300,000&Omega;
+100k&Omega; + 100k&Omega; + 100k&Omega; = 300k&Omega;
 $$
 
 $$
-R_{parallel} = ({\frac{1}{10,000&Omega;} + \frac{1}{10,000&Omega;}})^{-1} = 5,000&Omega;
+10k&Omega; + 5k&Omega; = 15k&Omega;
 $$
 
 $$
-R_{parallel} = ({\frac{1}{2,000&Omega;} + \frac{1}{10,000&Omega;}})^{-1} \approx 1,666.67&Omega;
+R_{parallel} = ({\frac{1}{2k&Omega;} + \frac{1}{10k&Omega;}})^{-1} \approx 1.67k&Omega;
+$$
+
+$$
+R_{eq} = 300k&Omega; + 10k&Omega; + 5k&Omega; + 1.67k&Omega; = 316.67k&Omega;
 $$
 
 
- * (3x) 100,000&Omega;
- * (3x) 10,000&Omega;
- * (1x) 2,000&Omega;
- * Total: 7 Resistors
+ * (3x) 100k&Omega;
+ * (2x) 10k&Omega;
+ * (1x) 5k&Omega;
+ * (1x) 2k&Omega;
+ * Total: 7 Resistors, 4 unique resistors
 
