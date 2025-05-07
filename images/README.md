@@ -1,10 +1,11 @@
 # Images
 All images of the processes, finished project and testing of the solar battery bank
 ## Overview
-Calculations - shows all my work to get the values I did for the boost converter (more details below).
+Booster Calculations - shows all my work to get the values I did for the boost converter (more details below).
+Power Calculations - shows all power calculations as well as some other misc. calculations (more details below).
 Hand Diagram - just like the one from the main README.md just put here for orginization
 
-## Calculations
+## Booster Calculations
 My handwriting is sloppy so this is for clarification on the math below:
 
 #### Inductor ripple current:
@@ -89,4 +90,63 @@ $$
  * (1x) 5k&Omega;
  * (1x) 2k&Omega;
  * Total: 7 Resistors, 4 unique resistors
+
+
+
+
+## Power Calculations
+Clarification on calculations for the power consumption and production as well as other misc. calculations label as needed.
+
+#### Battery Capacity & Load
+$$
+E_{bat} = V * Ah \rightarrow (3.7v)(3Ah) = 11.1Wh
+$$
+
+$$
+E_{usable} = E * &eta; \rightarrow (11.1Wh)(0.8) = 8.88Wh
+$$
+
+#### Solar Output
+$$
+P_{solar} = 6w (given)
+$$
+
+$$
+E_{daily} = P * t * &eta; \rightarrow (6w)(5h)(0.8) = 24 \frac{Wh}{day} 
+$$
+
+$$
+P_{recharge} = \frac{E_{daily}}{E_{usable}} \rightarrow \frac{24 \frac{Wh}{day}}{8.88Wh} = 2.703 \frac{full}{day}
+$$
+
+#### TP4056 Charge
+$$
+I_{charge} = C * Charge Rate \rightarrow (1A)(0.33C) = 0.33A
+$$
+
+$$
+t_{charge} = \frac{Ah}{A}(k) \rightarrow \frac{3Ah}{1A}(1.2) = 3.6 hours
+$$
+ * where k is a constant variable at 1.2v for overhead
+
+#### Boost Converter Load Limit
+$$
+P_{out} = V * A \rightarrow (5v)(0.5A) = 2.5W
+$$
+
+$$
+
+$$
+
+
+
+
+
+
+
+
+
+
+
+
 
