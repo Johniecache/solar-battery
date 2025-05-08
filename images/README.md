@@ -51,7 +51,7 @@ $$
 V_{out} = V_{ref}(1 + \frac{R1}{R2})
 $$
  * R1 is between the $V_{out}$ pin and the FB pin
- * R2 is between the FB and the GND pin (assume this to be 100,000&Omega;)
+ * R2 is between the FB and the GND pin (assume this to be 100k&Omega;)
 
 $$
 R1 = R2 (\frac{V_{out}}{V_{ref}} - 1) \rightarrow 100k(\frac{5v}{1.2v} - 1) = 316.67k&Omega;
@@ -62,7 +62,7 @@ $$
 Quick check:
 
 $$
-1.2v(1 + \frac{316,666.667&Omega;}{100,000&Omega;}) \approx 5.00v
+1.2v(1 + \frac{316.67k&Omega;}{100k&Omega;}) \approx 5.00v
 $$
 
 #### Optimizing for 316.67k&Omega; Resistor combination
@@ -135,13 +135,30 @@ P_{out} = V * A \rightarrow (5v)(0.5A) = 2.5W
 $$
 
 $$
-
+P_{in} = \frac{P_{out}}{&eta;} \rightarrow \frac{2.5W}{0.8} = 3.125W
 $$
 
+$$
+I_{in} = \frac{P_{in}}{V_{in}} \rightarrow \frac{3.125W}{3.7v} \approx 0.845A
+$$
+ * safe range for MT3608 amps
 
+#### Voltage drop
+Stipulatios: 22 AWG wire at 1A over 2ft round-trip
 
+$$
+V_{drop} = R_{wire} * L * I \rightarrow 0.0165 \frac{&ohm;}{ft} (2ft)(1A) = 0.033V
+$$
 
+* Within acceptable range
 
+#### Thermal (TP4056)
+
+$$
+P_{diss} = (V_{in} - V_{batt}) * A \rightarrow (6v - 3.6v)(1A) = 2.4W
+$$
+
+ * Due to high wattage a heatsink, airflow or a combination maybe necessary on the TP4056, more testing will be done before a final verdict
 
 
 
