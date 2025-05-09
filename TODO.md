@@ -4,7 +4,6 @@ Roadmap for future plans
  * Finish BOM.md
  * Finalize Calculation boost converter
  * Finalize Calculation power utilization
- * Move Calculations into docs
  * Prio images as project images
 
 ## High Priority - Features
