@@ -29,7 +29,6 @@ Use to power any USB-a device via a 21700 5000mAh battery that is charged itself
 | SOT23-6 MT3608 | for MT3608 | [AliExpress](https://www.aliexpress.us/item/3256808667259021.html?spm=a2g0o.productlist.main.9.39e0no5mno5mtY&algo_pvid=47de4a8f-1c6c-4639-a94a-1b02b3a6954c&algo_exp_id=47de4a8f-1c6c-4639-a94a-1b02b3a6954c-4&pdp_ext_f=%7B%22order%22%3A%222%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.15%212.95%21%21%213.15%212.95%21%402103244617465656211398444e98f5%2112000046953361201%21sea%21US%210%21ABX&curPageLogUid=Q2fGZLaD7PE0&utparam-url=scene%3Asearch%7Cquery_from%3A) |
 
 ## Wiring Diagram (hand drawn)
-![hand-diagram_architectual-diagram](https://github.com/user-attachments/assets/1165b6e8-c187-4c4d-aecf-9bc2f8d80e84)
 
 ## Power Flow
 1. Solar panel feeds TP4056 charger
