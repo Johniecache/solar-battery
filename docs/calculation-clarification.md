@@ -3,11 +3,15 @@ Clarification on calculations for the power consumption and production as well a
 
 #### Battery Capacity & Load
 $$
-E_{bat} = V * Ah \rightarrow (3.7v)(3Ah) = 11.1Wh
+E_{bat} = V * Ah \rightarrow (3.7v)(5Ah) = 18.5Wh
 $$
 
 $$
-E_{usable} = E * &eta; \rightarrow (11.1Wh)(0.8) = 8.88Wh
+E_{usable} = E_{bat} * &eta; \rightarrow (18.5Wh)(0.8) = 14.8Wh
+$$
+
+$$
+E_{total} = E_{usable} * 4 = 59.2Wh
 $$
 
 #### Solar Output
@@ -20,7 +24,7 @@ E_{daily} = P * t * &eta; \rightarrow (6w)(5h)(0.8) = 24 \frac{Wh}{day}
 $$
 
 $$
-P_{recharge} = \frac{E_{daily}}{E_{usable}} \rightarrow \frac{24 \frac{Wh}{day}}{8.88Wh} = 2.703 \frac{full}{day}
+P_{recharge} = \frac{E_{daily}}{E_{usable}} \rightarrow \frac{24 \frac{Wh}{day}}{59.2Wh} = 0.41 \frac{full}{day}
 $$
 
 #### TP4056 Charge
@@ -29,7 +33,7 @@ I_{charge} = C * Charge Rate \rightarrow (1A)(0.33C) = 0.33A
 $$
 
 $$
-t_{charge} = \frac{Ah}{A}(k) \rightarrow \frac{3Ah}{1A}(1.2) = 3.6 hours
+t_{charge} = \frac{Ah}{A}(k) \rightarrow \frac{5Ah}{1A}(1.2) = 6 hours
 $$
  * where k is a constant variable at 1.2v for overhead
 
