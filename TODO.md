@@ -7,7 +7,7 @@ Roadmap for future plans
  * Add images to project images
 
 ## High Priority - Features
-
+ * Finish BOM.md
 
 ## Medium Priority - Enhancements
 
