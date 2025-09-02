@@ -21,7 +21,7 @@ Use to power any USB-a device via a 21700 5000mAh battery that is charged itself
 | Rocker Switch | Toggleable power output to USBA | [Amazon](https://www.amazon.com/DaierTek-250VAC-Rocker-KCD1-101-Plastic/dp/B07S2QJKTX/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.U6DeqVsNukOmjPf4ZQ1XOXhIcmbstjqzeNS6KO5OiEMwtiSMGtTuNdj9lgAF2eLF12lRtlpVsSJUYRYInjnA5VFP8FE9aDc-i2TQL62o6xBl2I07gcjJubDox_JPmFb_5stm7qSf8PkyeHtLK4MhUrAAGkiquyUc_TYwD4N41ohNEeygO-R6Vh8yhecDRTsQhJy9LfZdBp32LoaykBXpWJFE_DgsxJaon8iclzM-SG0.HrDgsFcjStz9RvCM1nNPtWhK-30_BPh5een2qPg3tNM&dib_tag=se&keywords=rocker+switch&qid=1756828076&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
 | 22 AWG wire | connection between terminals | [Amazon]([amazon.com/dp/B089CQHRDT?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_12](https://www.amazon.com/Fermerry-Stranded-Electric-Tinned-Copper/dp/B089CQHRDT/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.LbfmNeaOMKQc2NnauqoG3qGV41E7ROxSi6Xxb0l3ZgfUb5OE2VE2IVYsqTuHy37T1oy0OB7HhgbbAFZn13h4Uw2PPNDdWFW-k2vugdq8nKhybWmN9ODvoRyJ6MHV3KbGWSaYPBtptDogn_N8hEGi6gTbMT13eeC60C4o8-8xEqaCe4afXLqfB_pqxp9VVg9qmJbSRyD_6FkrFiEOTDYgBWPOTj1ukOPC8d-vgVjZgkBVI9_NSbOrtohi_5576x0wK9OkiA9CBVABGx2s7nx_zLwA62wJWaf6r43zm4p-Eqo.AQBYnQ_6EABFiEKMg3BW8fLpb8A8GAVy8ogbX3r2h1g&dib_tag=se&keywords=22+awg+wire&qid=1756828098&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)) | 
 ## Wiring Diagram (hand drawn)
-TO BE ADDED
+<img width="2480" height="1748" alt="image" src="https://github.com/user-attachments/assets/bef03d62-bfe0-493c-8ef7-17529ae8996e" />
 
 ## Power Flow
 1. Solar panel feeds TP4056 charger
