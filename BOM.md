@@ -1,7 +1,7 @@
 # Bill of Materials
 
 | Item | Quantity | Description | Manufacturer | Part Number | Price | Link |
-|------|----------|-------------|--------------|-------------|-------|------|
+|------|:--------:|-------------|--------------|-------------|:-----:|------|
 | TP4056 | 1 | Lithion Ion Charging and Protection | HiLetgo Store | B07PKND8KG | $5.99 | [Amazon](https://www.amazon.com/HiLetgo-Lithium-Charging-Protection-Functions/dp/B07PKND8KG/ref=sr_1_3?crid=2RNCS27X3G67O&dib=eyJ2IjoiMSJ9.mmqI1134FS87MHz1mUcWtVQ3nl56sscrnSMxLFpWabzs2P0VEpvBhthLuQU6SI2Miw-I83Qy9o5TsMndADuD7kOOSb3OrmbtbkryfY6n36x4uXgLHjDBbQdK3YvKYhaD_6Ld93CpeP-UHwzHBChaIwkmEzZ6JKOD7jCRDQ6-ocDRUUeq0i-wfOQYnde4objwYD_PROqkFCInSDxSNV8qIUcOZHZn3yFOwOWFto0EUsk.8vyBwRi72GVM1dxXRx4JKOLEvJc0XP319kvKBtV_rYo&dib_tag=se&keywords=tp4056&qid=1746113787&sprefix=TP40%2Caps%2C341&sr=8-3) |
 | MT3608 | 1 | Boost converter (3.7V → 5V) | DORHEA | B089JYBF25 | $6.99 | [Amazon](https://www.amazon.com/Dorhea-MT3608-DC-DC-Boost-Converter/dp/B089JYBF25/ref=sr_1_3?crid=1URDLFIGHF7P6&dib=eyJ2IjoiMSJ9.V20UGII4iKhMPSdbA0ORU8ntDcx_O-vpOIRGcpWJV8KYxJ7Fs-oJWyISZ1iSuNb3ElBPVExAVAFQFpZh5Ed6HEAoc5BOM3fxMdJGXJotV6QVZAnsJkccjFaDuhu2CtmD814tj8uIL17duBEOBTgrYZ3MfOMJGW9eC3Kt6-rKT-v74PE6zYvuFmAbYG8XouuDGLXcoEBg26C0AazPxRWOynIeExWw3o4wksGlxug4YDI.0apLGxT--sNxn0hRxi54YFQ_082fLE6HxtZaWxaJNRI&dib_tag=se&keywords=mt3608&qid=1746113828&sprefix=mt3608%2Caps%2C840&sr=8-3) |
 | 21700 Battery | 4 | Rechargeable Lithium-ion cell | Samsung | INR21700-50E | $8.99(4) | [18650 Battery Store](https://www.18650batterystore.com/products/samsung-50e) |
