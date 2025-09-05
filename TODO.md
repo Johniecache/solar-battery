@@ -1,16 +1,22 @@
 # TODO
 Roadmap for future plans
-## Critical - Tasks
+## List
  * Finish enclosure rework
  * Make/Design battery enclosure
- * Check if thermals are fine inside enclosure
+ * Check/test if thermals are fine inside enclosure
  * Add images to project images
-
-## High Priority - Features
+   * circuit pre-lid (all)
+   * circuit post-lid
+   * circuit diagram (hand-drawn)
+   * circuit diagram (KiCad)
+   * Working video of open charger
+   * Working video of closed charger
+   * Working video of open solar intake
+   * Workinig video of closed solar intake
  * Finish BOM.md
-
-## Medium Priority - Enhancements
-
-
-## Low Priority - Nice to Haves
+ * add stl files
+   * raisers for MT3608
+   * Circuit lid
+   * Battery Lid
+   * Screws & raisers
 
