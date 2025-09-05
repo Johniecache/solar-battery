@@ -52,7 +52,17 @@ $$
  * safe range for MT3608 amps
 
 #### Voltage drop
-Stipulations: 16 AWG 99.9% pure solid-core copper & 22 AWG copper wiring combinations
+Stipulations: 16 AWG 99.9% pure solid-core copper & 22 AWG copper wiring combinations at a total length of 
+
+#### Resistor Combinations (USB-A)
+* Due to Apple products declining to take power from a "dumb" charger it is necessary for resistor combinations to trick the iPhone into thinking its a "smart" USB-A charger via the data terminals
+* Goal:
+  * D- voltage =
+  * D+ voltage =
+ 
+$$
+
+$$
 
 #### Thermal (TP4056)
 
