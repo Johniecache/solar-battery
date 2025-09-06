@@ -10,6 +10,7 @@
 * Solar Panel (5-6v at minimum 1A)
 * Rocker Switch - for power control 
 * USB-A female port (with exposed pins or breakout board)
+* alligator clips
 * Kit of Resistors (Optional for voltage dividers for "smart" charger)
 
 ### Step-by-Step Instructions:
@@ -30,3 +31,18 @@
 14. Ensure the longer side of the copper wires are parallel with the TP4056 board and solder the shorter part sticking through the holes (reference pictures in images folder).
 15. Using a measuring device (I used a ruler) find the center of the battery holder between the pins on the edge of the case.
 16. Superglue (or alternative attachment method, this is just what I did) the top of the USB-C on the TP4056 to the marked center of the battery holder.
+17. In the end the wired connections should be as followed:
+  * Solar Panel Vcc -> TP4056 Vin+ (16 AWG Insulated Tinned Wire w/ alligator clips)
+  * Solar Panel gnd -> TP4056 Vin- (16 AWG Insulated Tinned Wire w/ alligator clips)
+  * TP4056 B+ -> Battery & Case + (16 AWG 99.9% pure copper wire)
+  * TP4056 B- -> Battery & Case - (16 AWG 99.9% pure copper wire)
+  * TP4056 Vout+ -> MT3608 Vin+ (16 AWG Insulated Tinned Wire)
+  * TP4056 Vout- -> common gnd (16 AWG Insulated Tinned Wire)
+  * MT3608 Vin- -> common gnd (16 AWG Insulated Tinned Wire)
+  * MT3608 Vout- -> common gnd (16 AWG Insulated Tinned Wire)
+  * MT3608 Vout+ -> USB-A pin 4 (Vcc) (16 AWG Insulated Tinned Wire)
+  * USB-A pin 1 (gnd) () -> common gnd (16 AWG Insulated Tinned Wire)
+  * USB-A pin 2 (D-) () -> *resistor combo* (16 AWG 99.9% pure copper wire or just solder connections)
+  * USB-A pin 3 (D+) () -> *resistor combo* (16 AWG 99.9% pure copper wire or just solder connections)
+
+
