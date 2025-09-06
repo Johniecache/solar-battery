@@ -1,5 +1,5 @@
 # Hardware Setup Instructions
-Hardware needed:
+### Hardware needed:
 * Soldering Iron
 * Insulated Tinned Wire (22 AWG) - for lighter current connections
 * Insulated Tinned Wire (16 AWG) - for higher current connections
@@ -12,7 +12,7 @@ Hardware needed:
 * USB-A female port (with exposed pins or breakout board)
 * Kit of Resistors (Optional for voltage dividers for "smart" charger)
 
-Step-by-Step Instructions:
+### Step-by-Step Instructions:
 
 1. Download and print all .stl files located in the hardware folder
 2. Setup your workstation. Ensure all parts needed are at your disposal.
