@@ -9,7 +9,6 @@ Roadmap for future plans
    * Working video of closed charger
    * Working video of open solar intake
    * Workinig video of closed solar intake
- * Finish BOM.md
  * add stl files
    * raisers for MT3608
    * Circuit lid
