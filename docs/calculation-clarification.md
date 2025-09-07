@@ -57,12 +57,36 @@ Stipulations: 16 AWG 99.9% pure solid-core copper & 22 AWG copper wiring combina
 #### Resistor Combinations (USB-A)
 * Due to Apple products declining to take power from a "dumb" charger it is necessary for resistor combinations to trick the iPhone into thinking its a "smart" USB-A charger via the data terminals
 * Goal:
-  * D- voltage =
-  * D+ voltage =
+  * D- voltage = 1.50v
+  * D+ voltage = 2.00v
  
+$$
+V_{D-} = 5.0v(\frac{4.3k &ohm;}{10k &ohm; + 4.3k &ohm;}) \approx 2.0v
 $$
 
 $$
+V_{D+} = 5.0v(\frac{6.8k &ohm;}{10k &ohm; + 6.8k &ohm;}) \approx 1.5v
+$$
+
+$$
+D-_{5v_rail} = 10k &ohm;
+$$
+
+$$
+D-_{gnd_rail} = (\frac{1}{8200 &ohm;} + \frac{1}{8200 &ohm;})^{-1} + 100 &ohm; + 100 &ohm; \approx 4,300 &ohm;
+$$
+
+$$
+D+_{5v_rail} = 10k &ohm;
+$$
+
+$$
+D+_{gnd_rail} = (\frac{1}{7500 &ohm;} + \frac{1}{7500 &ohm;})^{-1} + 3000 &ohm; + 50 &ohm; \approx 6800 &ohm;
+$$
+
+* D- combination: 2x 8200 parallel + 2x 100 series
+* D+ combination: 2x 7500 parallel + 1x 3000 series + 50 series
+
 
 #### Thermal (TP4056)
 
