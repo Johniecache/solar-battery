@@ -30,8 +30,12 @@
 13. Stick the shorter side into the Vin+ Vin- holes near the USB-C female port from the bottom.
 14. Ensure the longer side of the copper wires are parallel with the TP4056 board and solder the shorter part sticking through the holes (reference pictures in images folder).
 15. Using a measuring device (I used a ruler) find the center of the battery holder between the pins on the edge of the case.
-16. Superglue (or alternative attachment method, this is just what I did) the top of the USB-C on the TP4056 to the marked center of the battery holder.
-17. In the end the wired connections should be as followed:
+16. Optional: put red heatshrink on the Vin+ and black heatshrink on the Vin- copper wires and torch them on for better indication on what each one is.
+17. Superglue (or alternative attachment method, this is just what I did) the top of the USB-C on the TP4056 to the marked center of the battery holder.
+18. Take the 3D printed raisers and stick them through the large holes in the MT3608 and glue them in.
+19. Orientate the MT3608 so that the Vin+ and Vin- are facing the TP4056 Vout+ and Vout-
+20. 
+21. In the end the wired connections should be as followed:
   * Solar Panel Vcc -> TP4056 Vin+ (16 AWG Insulated Tinned Wire w/ alligator clips)
   * Solar Panel gnd -> TP4056 Vin- (16 AWG Insulated Tinned Wire w/ alligator clips)
   * TP4056 B+ -> Battery & Case + (16 AWG 99.9% pure copper wire)
