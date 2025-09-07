@@ -34,13 +34,19 @@
 17. Superglue (or alternative attachment method, this is just what I did) the top of the USB-C on the TP4056 to the marked center of the battery holder.
 18. Take the 3D printed raisers and stick them through the large holes in the MT3608 and glue them in.
 19. Orientate the MT3608 so that the Vin+ and Vin- are facing the TP4056 Vout+ and Vout-
-20. 
-21. In the end the wired connections should be as followed:
+20. Glue the raisers to the back of the battery holder.
+21. Solder the MT3608 Vin+ to TP4056 Vout+ using 16 AWG Insulated Tinned Wire.
+22. Solder the MT3608 Vin- to TP4056 Vout- using 16 AWG Insulated Tinned Wire.
+23. Solder MT3608 Vout+ to pin 4 (Vcc) on the USB-A exposed pin (Optional: solder to USB-A vcc rail).
+24. Solder MT3608 Vout- to pin 1 (gnd) on the USB-A exposed pin (Optional: solder to USB-A gnd rail).
+25. 
+26. In the end the wired connections should be as followed:
   * Solar Panel Vcc -> TP4056 Vin+ (16 AWG Insulated Tinned Wire w/ alligator clips)
   * Solar Panel gnd -> TP4056 Vin- (16 AWG Insulated Tinned Wire w/ alligator clips)
   * TP4056 B+ -> Battery & Case + (16 AWG 99.9% pure copper wire)
   * TP4056 B- -> Battery & Case - (16 AWG 99.9% pure copper wire)
-  * TP4056 Vout+ -> MT3608 Vin+ (16 AWG Insulated Tinned Wire)
+  * TP4056 Vout+ -> Rocker Switch (16 AWG Insulated Tinned Wire)
+  * Rocker Switch -> MT3608 Vin+ (16 AWG Insulated Tinned Wire)
   * TP4056 Vout- -> common gnd (16 AWG Insulated Tinned Wire)
   * MT3608 Vin- -> common gnd (16 AWG Insulated Tinned Wire)
   * MT3608 Vout- -> common gnd (16 AWG Insulated Tinned Wire)
