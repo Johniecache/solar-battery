@@ -37,15 +37,37 @@
 20. Glue the raisers to the back of the battery holder.
 21. Solder the MT3608 Vin+ to TP4056 Vout+ using 16 AWG Insulated Tinned Wire.
 22. Solder the MT3608 Vin- to TP4056 Vout- using 16 AWG Insulated Tinned Wire.
-23. ***USB-A resistor combos***
+23. Setup and solder resistor combinations for "smart" charger:
+  * D- = 
+  * D+ = 
 24. Solder MT3608 Vout+ to pin 4 (Vcc) on the USB-A exposed pin (Optional: solder to USB-A vcc rail).
 25. Solder MT3608 Vout- to pin 1 (gnd) on the USB-A exposed pin (Optional: solder to USB-A gnd rail).
 26. Place the 3D lid over the circuit and adjust the copper wire from the TP4056.
 27. With the lid on top and copper wire adjusted mark the openings for the Rocker switch and the USB-A outsides.
 28. Remove the lid and super glue the Rocker Switch and USB-A between the marks you just made on the battery holder.
-29. In the end the wired connections should be as followed:
-  * Solar Panel Vcc -> TP4056 Vin+ (16 AWG Insulated Tinned Wire w/ alligator clips)
-  * Solar Panel gnd -> TP4056 Vin- (16 AWG Insulated Tinned Wire w/ alligator clips)
+29. Measure out and mark locatiosn of the 3D printed lid raisers (MEASUREMENTS).
+30. Measure out appropriate length of choice for desired distance between solar panel and battery pack (recommended: 1ft 16 AWG Insulated Tinned Copper wire).
+31. Strip and solder one end of wire to the solar panel.
+32. Ensure that the roxker switch is turned off.
+33. Strip and solder the other end of the wire to the TP4056 (optional: solder to alligator clips).
+34. If you soldered to alligator clips instead,then clip them to the TP4056.
+35. Place one if the Samsung 21700 50E batteries into one of the holder slots.
+36. Place the solar panel into direct sunlight or in high lumen environment.
+37. Check to make sure a red LED on the TP4056 lights up (this indicates its recieving power from solar panel).
+38. Flip the rocker switch on.
+39. Using a multimeter check the MT3608 Vin+ and Vin- (should be ~3.7 if battery is between 20-80% but could be 2.5v if low or 4v if full).
+40. Using a multimeter check the MT3608 Vout+ and Vout- (should be ~15-20v).
+41. Using a flathead or coin turn the dial on the blue box until ~5v is reached (maximum 1 full turn and use multimeter again to check progress).
+42. Using a multimeter check the voltage across the Vcc and gnd rails on the USB-A pins (should be same as between Mt3608 Vout+ and Vout-).
+43. Plug in a USB-A male into the USB-A female port.
+44. plug other end into phone or other decice to check for charge and power (I used my phonr which showed it was charging).
+45. Unplug device and turn rocker switch off.
+46. Place lid on top and screw it in (dont overscrew as the 3D printed screws are more fragile then metal screws).
+
+### Wiring Overview
+Wired connections should be as followed:
+  * Solar Panel Vcc -> TP4056 Vin+ (16 AWG Insulated Tinned Wire, Optional: w/ alligator clips)
+  * Solar Panel gnd -> TP4056 Vin- (16 AWG Insulated Tinned Wire, Optional: w/ alligator clips)
   * TP4056 B+ -> Battery & Case + (16 AWG 99.9% pure copper wire)
   * TP4056 B- -> Battery & Case - (16 AWG 99.9% pure copper wire)
   * TP4056 Vout+ -> Rocker Switch (16 AWG Insulated Tinned Wire)
