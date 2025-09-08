@@ -40,12 +40,12 @@
 23. Setup and solder resistor combinations for "smart" charger:
   * D- = 2.0v
   * D+ = 1.5v
-  * D- -> 5v rail -> 10k $&ohm;$ resistor
-  * D- -> gnd rail -> 2x 8200 $&ohm;$ resistors in parallel will be in series with 2x 100 $&ohm;$ resistors that are in series
-    * +-- [8200 $&ohm;$ || 8200 $&ohm;$] -- [100 $&ohm;$] -- [100 $&ohm;$] --+
-  * D+ -> 5v rail -> 10k $&ohm;$ resistor
-  * D- -> gnd rail -> 2x 7500 $&ohm;$ resistors in parallel will be in series with 1x 3000 $&ohm;&$ resistor in series with 1x 50 $&ohm;& resistor
-    * +-- [7500 $&ohm;& || 7500 $&ohm;$ resistor] -- [3000 $&ohm;$] -- [50 $&ohm;$] --+
+  * D- $\rightarrow$ 5v rail -> 10k&ohm; resistor
+  * D- $\rightarrow$ gnd rail -> 2x 8200&ohm; resistors in parallel will be in series with 2x 100&ohm; resistors that are in series
+    * +-- [8200&ohm; || 8200&ohm;] -- [100&ohm;] -- [100&ohm;] --+
+  * D+ $\rightarrow$ 5v rail -> 10k&ohm; resistor
+  * D- $\rightarrow$ gnd rail -> 2x 7500&ohm; resistors in parallel will be in series with 1x 3000&ohm; resistor in series with 1x 50&ohm; resistor
+    * +-- [7500&ohm; || 7500&ohm;] -- [3000&ohm;] -- [50&ohm;] --+
 24. Solder MT3608 Vout+ to pin 4 (Vcc) on the USB-A exposed pin (Optional: solder to USB-A vcc rail).
 25. Solder MT3608 Vout- to pin 1 (gnd) on the USB-A exposed pin (Optional: solder to USB-A gnd rail).
 26. Place the 3D lid over the circuit and adjust the copper wire from the TP4056.
@@ -72,18 +72,18 @@
 
 ### Wiring Overview
 Wired connections should be as followed:
-  * Solar Panel Vcc -> TP4056 Vin+ (16 AWG Insulated Tinned Wire, Optional: w/ alligator clips)
-  * Solar Panel gnd -> TP4056 Vin- (16 AWG Insulated Tinned Wire, Optional: w/ alligator clips)
-  * TP4056 B+ -> Battery & Case + (16 AWG 99.9% pure copper wire)
-  * TP4056 B- -> Battery & Case - (16 AWG 99.9% pure copper wire)
-  * TP4056 Vout+ -> Rocker Switch (16 AWG Insulated Tinned Wire)
-  * Rocker Switch -> MT3608 Vin+ (16 AWG Insulated Tinned Wire)
-  * TP4056 Vout- -> common gnd (16 AWG Insulated Tinned Wire)
-  * MT3608 Vin- -> common gnd (16 AWG Insulated Tinned Wire)
-  * MT3608 Vout- -> common gnd (16 AWG Insulated Tinned Wire)
-  * MT3608 Vout+ -> USB-A pin 4 (Vcc) (16 AWG Insulated Tinned Wire)
-  * USB-A pin 1 (gnd) () -> common gnd (16 AWG Insulated Tinned Wire)
-  * USB-A pin 2 (D-) () -> *resistor combo* (16 AWG 99.9% pure copper wire or just solder connections)
-  * USB-A pin 3 (D+) () -> *resistor combo* (16 AWG 99.9% pure copper wire or just solder connections)
+  * Solar Panel Vcc $\rightarrow$ TP4056 Vin+ (16 AWG Insulated Tinned Wire, Optional: w/ alligator clips)
+  * Solar Panel gnd $\rightarrow$ TP4056 Vin- (16 AWG Insulated Tinned Wire, Optional: w/ alligator clips)
+  * TP4056 B+ $\rightarrow$ Battery & Case + (16 AWG 99.9% pure copper wire)
+  * TP4056 B- $\rightarrow$ Battery & Case - (16 AWG 99.9% pure copper wire)
+  * TP4056 Vout+ $\rightarrow$ Rocker Switch (16 AWG Insulated Tinned Wire)
+  * Rocker Switch $\rightarrow$ MT3608 Vin+ (16 AWG Insulated Tinned Wire)
+  * TP4056 Vout- $\rightarrow$ common gnd (16 AWG Insulated Tinned Wire)
+  * MT3608 Vin- $\rightarrow$ common gnd (16 AWG Insulated Tinned Wire)
+  * MT3608 Vout- $\rightarrow$ common gnd (16 AWG Insulated Tinned Wire)
+  * MT3608 Vout+ $\rightarrow$ USB-A pin 4 (Vcc) (16 AWG Insulated Tinned Wire)
+  * USB-A pin 1 (gnd) () $\rightarrow$ common gnd (16 AWG Insulated Tinned Wire)
+  * USB-A pin 2 (D-) () $\rightarrow$ *resistor combo* (16 AWG 99.9% pure copper wire or just solder connections)
+  * USB-A pin 3 (D+) () $\rightarrow$ *resistor combo* (16 AWG 99.9% pure copper wire or just solder connections)
 
 
