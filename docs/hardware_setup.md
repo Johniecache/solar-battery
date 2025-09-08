@@ -38,8 +38,14 @@
 21. Solder the MT3608 Vin+ to TP4056 Vout+ using 16 AWG Insulated Tinned Wire.
 22. Solder the MT3608 Vin- to TP4056 Vout- using 16 AWG Insulated Tinned Wire.
 23. Setup and solder resistor combinations for "smart" charger:
-  * D- = 
-  * D+ = 
+  * D- = 2.0v
+  * D+ = 1.5v
+  * D- -> 5v rail -> 10k $&ohm;$ resistor
+  * D- -> gnd rail -> 2x 8200 $&ohm;$ resistors in parallel will be in series with 2x 100 $&ohm;$ resistors that are in series
+    * +-- [8200 $&ohm;$ || 8200 $&ohm;$] -- [100 $&ohm;$] -- [100 $&ohm;$] --+
+  * D+ -> 5v rail -> 10k $&ohm;$ resistor
+  * D- -> gnd rail -> 2x 7500 $&ohm;$ resistors in parallel will be in series with 1x 3000 $&ohm;&$ resistor in series with 1x 50 $&ohm;& resistor
+    * +-- [7500 $&ohm;& || 7500 $&ohm;$ resistor] -- [3000 $&ohm;$] -- [50 $&ohm;$] --+
 24. Solder MT3608 Vout+ to pin 4 (Vcc) on the USB-A exposed pin (Optional: solder to USB-A vcc rail).
 25. Solder MT3608 Vout- to pin 1 (gnd) on the USB-A exposed pin (Optional: solder to USB-A gnd rail).
 26. Place the 3D lid over the circuit and adjust the copper wire from the TP4056.
